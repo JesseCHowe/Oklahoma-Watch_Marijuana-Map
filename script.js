@@ -345,4 +345,3 @@ function showDispensaries() {
     map.getCanvas().style.cursor = "";
     popup.remove();
   });*/
-
