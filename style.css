@@ -1,0 +1,129 @@
+
+.sidebar button{
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background-color: #1e1e1e;
+  margin: 2rem;
+  width: 150px;
+  height: 150px;
+}
+.sidebar .dispensaries-button{
+    background-image: url("https://raw.githubusercontent.com/JesseCHowe/datasciencecoursera/master/dispensaries-background.jpg");
+}
+.sidebar .growers-button{
+    background-image: url("https://raw.githubusercontent.com/JesseCHowe/datasciencecoursera/master/growers-background.jpg");
+}
+.sidebar .processors-button{
+    background-image: url("https://raw.githubusercontent.com/JesseCHowe/datasciencecoursera/master/Processors-background.jpg");
+}
+.sidebar button p{
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px #1e1e1e;
+}
+.sidebar .active{
+  border: solid 2px #000;
+}
+.center{
+  background-color:#f9f9f9;
+  text-align:center;
+}
+#OK-Marijuana-Map{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*/////LEGEND CHART/////*/
+#legendChart{
+  height: 100px;
+  padding-top: 0px;
+  position: absolute;
+  z-index: 20;
+  bottom: 50px;
+  background:#efefef;
+  left: 2em;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+#legendChart p{
+  margin-left: 20px;
+  color: #000;
+  margin-bottom: -14px;
+  margin-top: 24px;
+}
+.label{
+  fill: #000;
+  font-size: 1em;
+}
+/*/////////////////////*/
+
+a.mapboxgl-ctrl-logo {
+  width: 0px !important;
+}
+
+#map {
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.sidebar {
+  height: 200px;
+  width: 100%;
+  z-index: 20;
+}
+
+/*/////GEOCODER/////*/
+.mapboxgl-ctrl-geocoder {
+  width: initial;
+  font-size: none;
+  line-height: none;
+  max-width: none;
+}
+.geocode_contain{  
+  height: 75px;
+max-width: 500px !important;
+    margin: 0 auto;
+    display: block;
+      margin-top: 25px;
+}
+.mapboxgl-ctrl-geocoder { min-width:100%; }
+.mapboxgl-ctrl-geocoder {
+    width: 100% !important;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 100% !important;
+}
+.mapboxgl-ctrl-geocoder--icon, .mapboxgl-ctrl-geocoder--icon-searc{
+  display: none !important;
+}
+.mapboxgl-ctrl-geocoder, .mapboxgl-ctrl-geocoder .suggestions {
+    box-shadow: 0 0 0px 0px rgba(0,0,0,0) !important;
+  border: 1px solid #000;
+       border-radius: 0px !important; 
+}
+/*//////////////////*/
+
+/*//////////POPUP-CONTENT//////////*/
+.mapboxgl-popup-content .container{
+  max-width: 200px;
+  color: #000;
+   z-index: 2000;
+  margin: 0px;
+  padding: 0px;
+}
+.mapboxgl-popup-content p{
+  font-size: 12px;
+    font-family: Verdana;
+  color: #484848;
+}
+.business{
+  border-bottom: 1px solid #1e1e1e;
+}
+/*///////////////////////////////*/
